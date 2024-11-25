@@ -1,0 +1,62 @@
+body {
+    background-color: #F8F5EC;
+    font-family: Poppins;
+    color: black;
+    text-align: left;
+    background-image: url("../images/coffee_beans.png");
+    background-repeat: no-repeat;
+    background-size: 50% auto; /* Half of the screen width with auto height */
+    background-position: right center; /* Right-aligned and centered vertically */
+    background-attachment: fixed;
+    margin-left: 100px;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30px;
+}
+
+ul {
+    list-style-type: none;  /* Remove the default bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    display: block; /* Use block display to show each coffee shop name on a separate line */
+    background-color: transparent;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    color: #333;
+    padding: 14px 16px;
+    background-color: transparent;
+}
+
+.nav-bar li {
+    display: block;
+    margin-right: 20px;
+    padding: 0;
+    background-color: transparent;
+}
+
+.nav-bar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* Remove underline on links */
+    background-color: transparent;
+}
+
+/* Change the link color when hovering */
+.nav-bar li a:hover {
+    background-color: pink;
+}
